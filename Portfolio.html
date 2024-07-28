@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash Kumar - Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: white;
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px;
+            flex: 0 0 45%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+       footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative; /* Adjusted from fixed to relative */
+    width: 100%;
+}
+
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .item {
+                flex: 0 0 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <div class="header-content">
+            <img src="C:\Users\DELL\Pictures\WhatsApp Image 2024-07-19 at 00.13.21_033c50d4.jpg" alt="Your Image" class="profile-img" onerror="this.style.display='none'; document.getElementById('image-error').style.display='block';">
+            <h1>Vikash Kumar</h1>
+            <p>Web Developer | Designer | Content Creator</p>
+            <p id="image-error" style="display: none;">Image could not be loaded.</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Vikash, a passionate web developer with a background in computer science and a love for creating beautiful, responsive websites. With a solid foundation in HTML, CSS, and JavaScript, I enjoy transforming complex problems into simple, elegant solutions.</p>
+        <p>I graduated with a degree in Computer Science and have been dedicated to honing my skills in web development. Over the past few years, I've worked on a variety of projects, from small personal websites to larger applications.</p>
+        <p>What sets me apart is my attention to detail and my dedication to continuous learning. I stay up-to-date with the latest trends and technologies in web development, always striving to improve my craft.</p>
+    </section>
+
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-items">
+            <div class="item">
+                <h3>Personal Blog</h3>
+                <p>A fully responsive personal blog site where users can read articles, leave comments, and subscribe to newsletters.</p>
+            </div>
+            <div class="item">
+                <h3>E-commerce Store</h3>
+                <p>An online store with a shopping cart, product search, and payment gateway integration for a seamless shopping experience.</p>
+            </div>
+            <div class="item">
+                <h3>Portfolio Website</h3>
+                <p>A clean and professional portfolio website to showcase my projects, skills, and contact information.</p>
+            </div>
+            <div class="item">
+                <h3>Weather App</h3>
+                <p>A web application that provides real-time weather updates and forecasts for any location using an external API.</p>
+            </div>
+            <div class="item">
+                <h3>Task Manager</h3>
+                <p>A task management tool that allows users to create, update, and delete tasks with deadlines and priority levels.</p>
+            </div>
+            <div class="item">
+                <h3>Recipe Finder</h3>
+                <p>An application where users can search for recipes based on ingredients they have and save their favorite recipes.</p>
+            </div>
+            <!-- Additional items can be added here -->
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:vk8307353404@gmail.com">vk8307353404@gmail.com</a></p>
+        <p>Phone: +917310708662</p>
+       </section>
+
+    
+<footer>
+        <p> 2024 Vikash Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
